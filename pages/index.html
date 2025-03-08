@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love ❤️</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #0b1522;
+            overflow: hidden;
+            position: relative;
+            margin: 0;
+        }
+
+        .heart{
+        height: 70px;
+        width: 70px;
+        background: #f20044;
+        position: relative;
+        rotate: -45deg;
+        box-shadow: -10px 10px 90px #f20044;
+        animation: heart 0.8s linear infinite;
+        }
+        @keyframes heart {
+        0%{
+            rotate: -45deg; scale: 1.07;
+        }
+        60%{
+            rotate: -45deg; scale:1;
+        }
+        100%{
+            rotate: -45deg; scale: 0.8;
+        }    
+        }
+        .heart:before{
+        content: '';
+        position: absolute;
+        height: 70px;
+        width: 70px;
+        background: #f20044;
+        top: -50%;
+        border-radius: 50px;
+        box-shadow: -10px -10px 90px #f20044;
+        }
+        .heart:after{
+        content: '';
+        position: absolute;
+        height: 70px;
+        width: 70px;
+        background: #f20044;
+        right: -50%;
+        border-radius: 50px;
+        box-shadow: 10px 10px 90px #f20044;
+        }
+
+        .image {
+            position: absolute;
+            border-radius: 10px;
+        }
+
+        .top-left {
+            height: 220px;
+            width: 140px;
+            top: 40px;
+            left: 210px;
+        }
+
+        .top-right {
+            height: 220px;
+            width: 140px;
+            top: 40px;
+            right: 210px;
+        }
+
+        .bottom-left {
+            height: 200px;
+            width: 180px;
+            bottom: 40px;
+            left: 210px;
+        }
+
+        .bottom-right {
+            height: 200px;
+            width: 180px;
+            bottom: 40px;
+            right: 210px;
+        }
+        .heartis {
+            height: 90px;
+            top: 95px;
+            left: 510px;
+            transform: rotate(30deg);
+        }
+        .heartis2 {
+            height: 60px;
+            top: 195px;
+            right: 510px;
+            transform: rotate(-40deg);
+        }
+        .heartis3 {
+            height: 30px;
+            top: 525px;
+            left: 140px;
+            transform: rotate(-20deg);
+        }
+        .heartis4 {
+            height: 55px;
+            top: 365px;
+            left: 85px;
+            transform: rotate(15deg);
+        }
+        .heartis5 {
+            height: 70px;
+            top: 175px;
+            left: 110px;
+            transform: rotate(-40deg);
+        }
+        .heartis6 {
+            height: 30px;
+            top: 175px;
+            right: 140px;
+            transform: rotate(40deg);
+        }
+        .heartis7 {
+            height: 55px;
+            top: 365px;
+            right: 85px;
+            transform: rotate(-15deg);
+        }
+        .heartis8 {
+            height: 70px;
+            top: 525px;
+            right: 110px;
+            transform: rotate(20deg);
+        }
+        .heartis9 {
+            height: 30px;
+            top: 55px;
+            right: 750px;
+            transform: rotate(-25deg);
+        }
+        .heartis10 {
+            height: 90px;
+            bottom: 95px;
+            right: 510px;
+            transform: rotate(-30deg);
+        }
+        .heartis11 {
+            height: 60px;
+            bottom: 195px;
+            left: 510px;
+            transform: rotate(40deg);
+        }
+        .heartis12 {
+            height: 30px;
+            bottom: 55px;
+            left: 750px;
+            transform: rotate(25deg);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="heart" onclick="window.location.href='./foryou.html'"></div>
+
+    <img src="/krutoi.png" class="image top-left">
+    <img src="/glupik.png" class="image top-right">
+    <img src="/venom.png" class="image bottom-left">
+    <img src="/krasivi.png" class="image bottom-right">
+    <img src="/pix_heart.png" class="image heartis">
+    <img src="/pix_heart.png" class="image heartis2">
+    <img src="/pix_heart.png" class="image heartis3">
+    <img src="/pix_heart.png" class="image heartis4">
+    <img src="/pix_heart.png" class="image heartis5">
+    <img src="/pix_heart.png" class="image heartis6">
+    <img src="/pix_heart.png" class="image heartis7">
+    <img src="/pix_heart.png" class="image heartis8">
+    <img src="/pix_heart.png" class="image heartis9">
+    <img src="/pix_heart.png" class="image heartis10">
+    <img src="/pix_heart.png" class="image heartis11">
+    <img src="/pix_heart.png" class="image heartis12">
+</body>
+</html>
