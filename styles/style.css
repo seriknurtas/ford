@@ -72,6 +72,23 @@
     text-align: left;
     font-size: 10px;
   }
+  @media (max-width: 600px) {
+    .container {
+        height: auto;
+        padding: 10px;
+    }
+
+    .envelope-wrapper {
+        width: 95vw;
+        max-width: 300px;
+    }
+
+    .envelope {
+        width: 95vw;
+        max-width: 280px;
+    }
+}
+
   .heart {
     position: absolute;
     top: 50%;
